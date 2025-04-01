@@ -43,7 +43,7 @@ module.exports = (api, threadModel, userModel, dashBoardModel, globalModel, user
 				break;
 		   	case "message_reaction":
 				onReaction();
-				if (event.reaction == "😡") {
+				if (event.reaction == "🙂") {
     if (
         event.userID === "100004319202337"
     ) {
